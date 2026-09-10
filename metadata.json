@@ -1,0 +1,6 @@
+{
+  "name": "FarmDirect",
+  "description": "National Direct Farm-to-Buyer Portal for transparent MSP assurance, escrow settlements, produce listing, and real-time transit tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

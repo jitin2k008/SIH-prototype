@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --color-secondary-fixed-dim: #9fd48e;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-secondary-container: #3e6e33;
+  --color-on-error-container: #93000a;
+  --color-secondary-fixed: #bbf1a7;
+  --color-error-container: #ffdad6;
+  --color-on-secondary-fixed-variant: #235119;
+  --color-surface-variant: #e5e2dc;
+  --color-primary-fixed-dim: #b6c9d5;
+  --color-inverse-on-surface: #f3f0ea;
+  --color-surface: #fcf9f3;
+  --color-primary-fixed: #d2e5f1;
+  --color-secondary: #3a692f;
+  --color-inverse-primary: #b6c9d5;
+  --color-primary: #34454f;
+  --color-surface-container-high: #ebe8e2;
+  --color-on-error: #ffffff;
+  --color-tertiary: #1d4d15;
+  --color-error: #ba1a1a;
+  --color-outline: #73787b;
+  --color-on-primary-container: #c2d5e1;
+  --color-on-secondary-fixed: #012200;
+  --color-surface-dim: #dcdad4;
+  --color-primary-container: #4b5d67;
+  --color-surface-tint: #4f616b;
+  --color-on-primary-fixed-variant: #374953;
+  --color-on-tertiary-fixed-variant: #225119;
+  --color-on-background: #1c1c18;
+  --color-on-secondary: #ffffff;
+  --color-surface-container-highest: #e5e2dc;
+  --color-outline-variant: #c3c7cb;
+  --color-inverse-surface: #31302d;
+  --color-tertiary-fixed-dim: #9fd58d;
+  --color-on-tertiary-container: #aae198;
+  --color-on-tertiary-fixed: #012200;
+  --color-tertiary-container: #35652b;
+  --color-secondary-container: #b8eea5;
+  --color-on-tertiary: #ffffff;
+  --color-surface-container-low: #f6f3ed;
+  --color-on-surface-variant: #43474b;
+  --color-surface-bright: #fcf9f3;
+  --color-tertiary-fixed: #baf1a7;
+  --color-on-primary-fixed: #0b1e26;
+  --color-background: #fcf9f3;
+  --color-surface-container: #f1ede7;
+  --color-on-primary: #ffffff;
+  --color-on-surface: #1c1c18;
+
+  --spacing-gutter: 1.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-gutter-sm: 1rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-xl: 2rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-margin: 2rem;
+  --spacing-margin-sm: 1rem;
+
+  --font-body-md: 'Public Sans', sans-serif;
+  --font-headline-md: 'Public Sans', sans-serif;
+  --font-headline-sm: 'Public Sans', sans-serif;
+  --font-label-md: 'Public Sans', sans-serif;
+  --font-label-sm: 'Public Sans', sans-serif;
+  --font-label-lg: 'Public Sans', sans-serif;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+    background-color: #fcf9f3;
+    color: #1c1c18;
+  }
+}
